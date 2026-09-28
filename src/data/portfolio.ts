@@ -8,23 +8,34 @@ type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Tu proyecto destacado",
-    description: "Describe brevemente qué hace, qué problema resuelve y cuál fue tu aportación.",
-    technologies: ["Next.js", "TypeScript", "CSS"],
-    href: "https://github.com/pablo-rosa",
+    title: "Portfolio Personal",
+    description:
+      "Portfolio personal desarrollado con Next.js y TypeScript para presentar mi perfil y proyectos. Durante su desarrollo reforcé mis conocimientos en App Router, diseño responsive y arquitectura frontend.",
+    technologies: ["Next.js", "TypeScript", "App Router", "CSS"],
+    href: "https://portfolio-pablo-rosa.vercel.app/",
   },
   {
-    title: "Una idea hecha producto",
-    description: "Cuenta qué aprendiste al construirlo y qué decisiones tomaste durante el proceso.",
-    technologies: ["React", "API", "Diseño responsive"],
-    href: "https://github.com/pablo-rosa",
+    title: "Proyecto Final de Curso — Pastrendleria",
+    description:
+      "Aplicación web desarrollada como proyecto final de curso. Trabajé en una API REST con Spring Boot, gestión de datos con PostgreSQL e integración dinámica mediante JSP y AJAX.",
+    technologies: ["Java", "Spring Boot", "PostgreSQL", "JSP", "AJAX"],
+    href: "https://pablorosadev.com/vistaPastrendleria/",
   },
   {
-    title: "Pequeño proyecto, gran aprendizaje",
-    description: "También puedes mostrar ejercicios, proyectos formativos o experimentos personales.",
-    technologies: ["JavaScript", "HTML", "CSS"],
+    title: "Job Tracker — Gestión de Candidaturas",
+    description:
+      "Aplicación web para gestionar procesos de selección, organizar candidaturas y consultar su evolución desde un dashboard. Proyecto enfocado en Next.js, TypeScript y gestión de datos.",
+    technologies: ["Next.js", "TypeScript", "React", "PostgreSQL", "Prisma"],
     href: "https://github.com/pablo-rosa",
   },
 ];
 
-export const technologies = ["JavaScript", "TypeScript", "React", "Next.js", "HTML & CSS", "Git & GitHub", "Figma"];
+export const technologies = [
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Next.js",
+  "HTML & CSS",
+  "Git & GitHub",
+  "Figma",
+];
