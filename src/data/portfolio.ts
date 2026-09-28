@@ -13,6 +13,7 @@ export const projects: Project[] = [
       "Portfolio personal desarrollado con Next.js y TypeScript para presentar mi perfil y proyectos. Durante su desarrollo reforcé mis conocimientos en App Router, diseño responsive y arquitectura frontend.",
     technologies: ["Next.js", "TypeScript", "App Router", "CSS"],
     href: "https://portfolio-pablo-rosa.vercel.app/",
+    previewImage: "/images/portfolio-home-imagen.PNG",
   },
   {
     title: "Proyecto Final de Curso — Pastrendleria",
@@ -20,6 +21,7 @@ export const projects: Project[] = [
       "Aplicación web desarrollada como proyecto final de curso. Trabajé en una API REST con Spring Boot, gestión de datos con PostgreSQL e integración dinámica mediante JSP y AJAX.",
     technologies: ["Java", "Spring Boot", "PostgreSQL", "JSP", "AJAX"],
     href: "https://pablorosadev.com/vistaPastrendleria/",
+    previewImage: "/images/pastrendleria-home-imagen.PNG",
   },
   {
     title: "Job Tracker — Gestión de Candidaturas",
