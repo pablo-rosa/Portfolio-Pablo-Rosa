@@ -28,7 +28,8 @@ export const projects: Project[] = [
     description:
       "Aplicación web para gestionar procesos de selección, organizar candidaturas y consultar su evolución desde un dashboard. Proyecto enfocado en Next.js, TypeScript y gestión de datos.",
     technologies: ["Next.js", "TypeScript", "React", "PostgreSQL", "Prisma"],
-    href: "https://github.com/pablo-rosa",
+    href: "https://job-tracker-pablo-rosa.vercel.app/login",
+    previewImage: "/images/job-tracker-home-imagen.PNG",
   },
 ];
 
