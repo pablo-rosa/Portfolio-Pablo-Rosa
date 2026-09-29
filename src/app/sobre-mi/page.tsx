@@ -32,7 +32,7 @@ export default function AboutPage() {
           </p>
           <p>
             Vivo en Sevilla y tengo disponibilidad para trabajar de forma
-            telemática.
+            presencial, hibrida o telemática.
           </p>
           <div className="about-facts">
             <div>
@@ -57,7 +57,9 @@ export default function AboutPage() {
               <BriefcaseBusiness size={18} />
               <span>
                 <small>DISPONIBILIDAD</small>
-                <strong>Oportunidades presenciales o telemáticas</strong>
+                <strong>
+                  Oportunidades presenciales, hibrídas o telemáticas
+                </strong>
               </span>
             </div>
             <div>

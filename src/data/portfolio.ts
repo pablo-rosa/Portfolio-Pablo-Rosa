@@ -1,4 +1,4 @@
-type Project = {
+﻿type Project = {
   title: string;
   description: string;
   technologies: string[];
@@ -7,6 +7,14 @@ type Project = {
 };
 
 export const projects: Project[] = [
+  {
+    title: "Job Tracker — Gestión de Candidaturas",
+    description:
+      "Aplicación web para gestionar procesos de selección, organizar candidaturas y consultar su evolución desde un dashboard. Proyecto enfocado en Next.js, TypeScript y gestión de datos.",
+    technologies: ["Next.js", "TypeScript", "React", "PostgreSQL", "Prisma"],
+    href: "https://job-tracker-pablo-rosa.vercel.app/login",
+    previewImage: "/images/job-tracker-home-imagen.PNG",
+  },
   {
     title: "Portfolio Personal",
     description:
@@ -23,14 +31,6 @@ export const projects: Project[] = [
     href: "https://pablorosadev.com/vistaPastrendleria/",
     previewImage: "/images/pastrendleria-home-imagen.PNG",
   },
-  {
-    title: "Job Tracker — Gestión de Candidaturas",
-    description:
-      "Aplicación web para gestionar procesos de selección, organizar candidaturas y consultar su evolución desde un dashboard. Proyecto enfocado en Next.js, TypeScript y gestión de datos.",
-    technologies: ["Next.js", "TypeScript", "React", "PostgreSQL", "Prisma"],
-    href: "https://job-tracker-pablo-rosa.vercel.app/login",
-    previewImage: "/images/job-tracker-home-imagen.PNG",
-  },
 ];
 
 export const technologies = [
@@ -38,6 +38,13 @@ export const technologies = [
   "TypeScript",
   "React",
   "Next.js",
+  "App Router",
+  "Java",
+  "Spring Boot",
+  "PostgreSQL",
+  "Prisma",
+  "JSP",
+  "AJAX",
   "HTML & CSS",
   "Git & GitHub",
   "Figma",
