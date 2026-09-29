@@ -57,8 +57,8 @@ export default function Home() {
             creciendo y aportar al equipo.
           </p>
           <p className="location">
-            <MapPin size={15} /> Sevilla, España <span>·</span> Trabajo
-            Presencial/Hibrido/Teletrabajo
+            <MapPin size={15} /> Sevilla, España <span>·</span> Disponible
+            Trabajo Presencial/Hibrido/Teletrabajo
           </p>
         </div>
         <div
